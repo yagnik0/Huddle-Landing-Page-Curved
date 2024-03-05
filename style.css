@@ -1,0 +1,124 @@
+:root {
+    --pink:hsl(322, 100%, 66%);
+    --lightpink:hsl(321, 100%, 78%);
+    --red:hsl(0, 100%, 63%);
+    --cyan:hsl(192, 100%, 9%);
+    --pale:hsl(207, 100%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+      font-family: "Open Sans", sans-serif;
+      /* font-family: "Poppins", sans-serif; */
+      margin: 0 5.2rem;
+}
+
+/* Header Styling */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7.8rem 1.2rem;
+}
+
+.home-btn button{
+    border: 1px solid var(--pink);
+    border-radius: 2rem 2.4rem;
+    background-color: #fff;
+    font-size: 1.8rem;
+    padding: 1rem 2.4rem;
+    color: var(--pink);
+    cursor: pointer;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transition: all 0.4s;
+}
+
+.home-btn button:hover {
+    color: var(--lightpink);
+    border: 1px solid var(--lightpink);
+}
+
+/* Main Section Styling */
+
+.main-section {
+   margin-top: 22rem;
+   text-align: center;
+}
+
+.main-content {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-head {
+    font-size: 4.7rem;
+    color: var(--cyan);
+    font-family: "Poppins", sans-serif;
+}
+
+.main-para {
+    margin-top: 2.2rem;
+    font-size: 2rem;
+    width: 51%;
+    color: var(--cyan);
+}
+
+.main-btn{
+    margin-top: 4.8rem;
+    border: none;
+    background-color: var(--pink);
+    color: var(--pale);
+    padding: 3rem 12rem;
+    border-radius: 5.2rem;
+    font-size: 1.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.main-btn:hover {
+    opacity: 0.6;
+}
+
+.main-image {
+    margin-top: 10.9rem;
+}
+
+/* Stats Section Styling */
+
+.stats-section-grid{
+    margin: 11.2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: var(--cyan);
+}
+
+.stat-1-col, .stat-2-col{
+    justify-self: center;
+}
+
+.stat-number {
+    font-size: 9.5rem;
+    font-weight: 700;
+}
+
+.stat-para {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #b3b1b1;
+}
+
