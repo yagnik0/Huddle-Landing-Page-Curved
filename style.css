@@ -20,7 +20,8 @@ html {
 body {
       font-family: "Open Sans", sans-serif;
       /* font-family: "Poppins", sans-serif; */
-      margin: 0 5.2rem;
+      /* margin: 0 5.2rem; */
+      color: var(--cyan);
 }
 
 /* Header Styling */
@@ -29,7 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 7.8rem 1.2rem;
+    margin: 7.8rem 5.6rem;
 }
 
 .home-btn button{
@@ -51,19 +52,19 @@ body {
 
 /* Main Section Styling */
 
-.main-section {
+.main-section, .bottom-section{
    margin-top: 22rem;
    text-align: center;
 }
 
-.main-content {
+.main-content, .botton-content{
      display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.main-head {
+.main-head, .bottom-head{
     font-size: 4.7rem;
     color: var(--cyan);
     font-family: "Poppins", sans-serif;
@@ -121,4 +122,46 @@ body {
     font-weight: 600;
     color: #b3b1b1;
 }
+
+/* Grid Section Styling */
+
+.grid-section {
+    margin: 14rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.lefter{
+    margin-left: 13rem;
+}
+
+.righter{
+    margin-right: 2rem;
+}
+
+.grid-head {
+    font-size: 4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-bottom: 2.2rem;
+}
+
+.grid-para{
+    font-size: 1.6rem;
+}
+
+.grid-2-col img{
+    width: 450px;
+}
+
+/* Bottom Section Styling */
+
+.bottom-section{
+    margin: 24rem 0;
+}
+
+/* Footer Styling */
 
